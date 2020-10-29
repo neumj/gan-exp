@@ -7,7 +7,7 @@ reqs = [
     "numpy",
     "pandas",
     "pillow",
-    "scipy==1.2.1",
+    "scipy",
     "scikit-learn",
     "yaml",
     "imageio",
@@ -23,7 +23,7 @@ conda_reqs = [
     "numpy",
     "pandas",
     "pillow",
-    "scipy==1.2.1",
+    "scipy",
     "scikit-learn",
     "yaml",
     "imageio",
@@ -35,10 +35,10 @@ conda_reqs = [
 test_pkgs = []
 
 setup(
-    name="geoimages",
+    name="ganexp",
     python_requires='>3.4',
-    description="aws case studies",
-    url="https://github.com/neumj/awsint",
+    description="GAN Experiments",
+    url="https://github.com/neumj/ganexp",
     install_requires=reqs,
     conda_install_requires=conda_reqs,
     test_requires=test_pkgs,

@@ -1,4 +1,4 @@
-name: geo-images
+name: ganexp 
 channels:
   - anaconda
   - conda-forge
@@ -10,7 +10,7 @@ dependencies:
   - numpy
   - pandas
   - pillow
-  - scipy=1.2.1
+  - scipy
   - scikit-learn
   - yaml
   - imageio
